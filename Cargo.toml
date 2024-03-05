@@ -1,6 +1,6 @@
 [package]
 name = "tokio-async-utils"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["nxy7 <danielukd@gmail.com>"]
 # homepage = "https://docs.rs/tokio-async-utils/latest/tokio_async_utils/"
 documentation = "https://docs.rs/tokio-async-utils/latest/tokio_async_utils/"
@@ -12,9 +12,9 @@ description = "Async utils such as TaskHandle type that aborts task on handle dr
 
 [dependencies]
 tokio = { version = "1.36.0", features = [
-  "full",
-  "sync",
   "time",
+  "sync",
+  "test-util",
+  "rt",
   "macros",
-  "rt-multi-thread",
 ] }
