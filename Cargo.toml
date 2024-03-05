@@ -1,7 +1,10 @@
 [package]
 name = "async-utils"
 version = "0.1.0"
+authors = ["nxy7 <danielukd@gmail.com>"]
 edition = "2021"
+license = "MIT"
+keywords = ["async", "tokio"]
 
 [dependencies]
 tokio = { version = "1.36.0", features = [
