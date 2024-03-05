@@ -6,6 +6,7 @@ use std::{
 use crate::TaskHandle;
 
 /// Map of tasks that can store TaskHandles based on any key type.
+#[derive(Debug)]
 pub struct TaskMap<K, V> {
     inner: HashMap<K, TaskHandle<V>>,
 }

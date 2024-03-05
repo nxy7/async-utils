@@ -20,6 +20,7 @@ use tokio::task::JoinHandle;
 /// let r = tx.send(false).await;
 /// assert!(r.is_err(), "'rx' along with task inside 'handle' should be dropped at this point so tx.send fails");
 /// ```
+#[derive(Debug)]
 pub struct TaskHandle<T>(pub JoinHandle<T>);
 
 impl<T> Deref for TaskHandle<T> {
