@@ -1,10 +1,10 @@
 [package]
-name = "async-utils"
+name = "tokio-async-utils"
 version = "0.1.0"
 authors = ["nxy7 <danielukd@gmail.com>"]
 edition = "2021"
 license = "MIT"
-keywords = ["async", "tokio"]
+keywords = ["async", "tokio", "util"]
 description = "Async utils such as TaskHandle type that aborts task on handle drop."
 
 [dependencies]
