@@ -2,6 +2,9 @@
 name = "tokio-async-utils"
 version = "0.1.0"
 authors = ["nxy7 <danielukd@gmail.com>"]
+# homepage = "https://docs.rs/tokio-async-utils/latest/tokio_async_utils/"
+documentation = "https://docs.rs/tokio-async-utils/latest/tokio_async_utils/"
+repository = "https://github.com/nxy7/async-utils"
 edition = "2021"
 license = "MIT"
 keywords = ["async", "tokio", "util"]
